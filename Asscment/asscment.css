@@ -1,0 +1,258 @@
+.contenner>*{
+    /* border: 1px solid; */
+   padding: 0%;
+   margin: 0px;
+   width: 100px;
+   height: 100px;
+}
+.menu{
+    border: 1px solid;
+    width: 100%;
+    height: 50px;
+}
+.header{
+    /* border: 1px solid; */
+    width: 100%;
+    height: 140px;
+    position: relative;
+    background-color: blue;
+ 
+}
+.truongc3{
+    position: absolute;
+    width: 100%;
+    height: 140px;
+}
+.article{
+    /* border: 1px solid; */
+    width: 80%;
+    height: 735px;
+    float: left;
+    position: relative;
+    /* background-color: blanchedalmond; */
+}
+.aside{
+    /* border: 1px solid; */
+    width: 20%;
+    height: 735px;
+    float: right;
+    background-color:lemonchiffon;
+}
+.fooder{
+    /* border: 1px solid; */
+    width: 100%;
+    height: 135px;
+    clear: both;
+    position: relative;
+    background-color: cornflowerblue;
+}
+.logo{
+    position: absolute;
+    width: 20%;
+    height: 135px;
+}
+.truong{
+    position: absolute;
+    left: 22%;
+    color: rgb(43, 48, 172);
+}
+.icon{
+    position: absolute;
+    width: 15%;
+    height:80px ;
+    bottom: 0px;
+    right: 0px;
+}
+.menu1{
+    position: absolute;
+    right: 0%;
+    /* border: 1px solid; */
+    border-bottom-left-radius: 25px;
+    background-color: rgb(240, 171, 41);
+    display: flex;
+    justify-content: space-between;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: red;
+}
+.menu{
+    position: relative;
+    background-color: rgb(56, 121, 242);
+}
+.menu>ul>a{
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 40px;
+    left: 0%;
+   
+}
+.menu>ul>a:hover{
+     border: 1px solid;
+     background-color: orange;
+     color: rgb(248, 43, 43);
+}
+.fooder>p{
+    font-size: 20px;
+    position: absolute;
+    top: 0%;
+    right: 30%;
+}
+.fooder>.thongtinlh{
+    /* border: 1px solid; */
+    position: absolute;
+    top: 10px;
+    right: 1px; 
+    margin-right: 5px;
+    
+}
+img{
+    width: 20%;
+    height: 100px;
+}
+.timkiem{
+    position: absolute;
+    right: 0%;
+    top: 20%;
+    font-size: 20px;
+}
+.tintuc>li{
+    margin: 30px;
+    font-size: 20px;
+    list-style: inside;
+}
+.aside>.tintuc>li>a{ 
+    color: cornflowerblue;
+}
+.aside>.tintuc>li>a:hover{
+    color: red;
+}
+h1{
+    color: red;
+    text-align: center;
+      display: flex;
+    justify-content: space-between;
+}
+.hoatdong1{
+    /* border: 1px solid; */
+    width: 49%;
+    height: 300px;
+    position: absolute;
+    position: absolute;
+    left: 0%;
+    top: 32px;
+}
+.article>.hoatdong1>.anh1{
+    position: absolute;
+    width: 40%;
+    height: 200px;
+    bottom: 0%;
+}
+.article>.hoatdong1>.noidung1{
+    position: absolute;
+    right: 0%;
+    margin: 5px;
+}
+.noidung1>ul>li{
+    margin: 10px;
+    list-style: none;
+}
+.noidung1>ul>li>a{
+    color: dimgrey;
+}
+.hoatdong1>h3{
+    text-align:center ;
+    color: red;
+}
+.hoatdong1>a1{
+    color: black;
+}
+.hoatdong2{
+    /* border: 1px solid; */
+    width: 49%;
+    height: 300px;
+    position: absolute;
+    right: 0%;
+    top: 32px;
+}
+.article>.hoatdong2>.anh2{
+    position: absolute;
+    width: 40%;
+    height: 200px;
+    bottom: 0%;
+}
+.article>.hoatdong2>.noidung2{
+    position: absolute;
+    right: 0%;
+    margin: 5px;
+}
+.noidung2>ul>li{
+    margin: 10px;
+    list-style: none;
+}
+.noidung2>ul>li>a{
+    color: dimgray;
+}
+.hoatdong2>h3{
+    text-align:center ;
+    color: red;
+}
+.hoatdong2>a2{
+    color: black;
+}
+.article>.hoatdong1>.them{
+    color: blue;
+    position: absolute;
+    bottom: 50px;
+    left: 41%;
+}
+.article>.hoatdong1>.them:hover{
+    color: red;
+}
+.article>.hoatdong2>.the{
+    color: blue;
+    position: absolute;
+    bottom: 50px;
+    left: 41%;
+}
+.article>.hoatdong2>.the:hover{
+    color: red;
+}
+.hoatdong3{
+    /* border: 1px solid; */
+    width: 60%;
+    height: 400px;
+    position: absolute;
+    left: 0%;
+    bottom: 0%;
+}
+.hoatdong3>.video{
+    width: 100%;
+    height: 330px;
+}
+.hoatdong3>h3{
+    text-align: center;
+}
+.hoatdong0{
+    position: absolute;
+    height: 20px;
+    width: 100%;
+    font-size: 20px;
+    background-color: antiquewhite;
+}
+.hoatdong4{
+    width: 38%;
+    height: 400px;
+    position: absolute;
+    right: 0%;
+    bottom: 0%;
+}
+.img{
+    width: 50%;
+    width: 200px;
+    float: left;
+}
